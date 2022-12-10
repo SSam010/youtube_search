@@ -23,3 +23,4 @@ for number in answer['result']:
 
 print("\nThe search result is placed in the directory: " + name_dir)
 
+#тестируем тестик
