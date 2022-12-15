@@ -12,16 +12,6 @@ def video_getting():
             video_info = Video.getInfo(video_from_channel['link'], mode=ResultMode.json)
             # add time search in json
             video_info['Time search'] = str(time_now)
-            # get like number
-            res = req.get(video_from_channel['link'])
-            likes = r'defaultText":{"accessibility":{"accessibilityData":{"label":"([\d,\.]+)'
-            likes_numb = re.findall(likes, str(res.content))
-
-            if len(likes_numb) > 0:
-                video_info['Likes'] = likes_numb[0]
-            else:
-                video_info['Likes'] = 0
-
             json.dump(video_info, vh, indent=4)
 
 
@@ -47,11 +37,10 @@ for name_file in os.listdir(directory):
 
                 playlist = Playlist(playlist_from_channel_id(id_channel))
 
-                video_getting()
                 # check more videos in channel (default limit 100)
                 while playlist.hasMoreVideos:
                     playlist.getNextVideos()
-                    video_getting()
+                video_getting()
                 print('search results are saved in the directory "' + name_channel + '"')
             else:
                 print('Channel directory "' + name_channel + '" already created')
