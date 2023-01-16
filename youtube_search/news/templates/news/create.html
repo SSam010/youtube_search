@@ -1,0 +1,32 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Предложи канал{% endblock %}
+
+{% block content %}
+
+    <div class="features">
+        {% if channel_add %}
+            {% for el in channel_add %}
+                <div id="create" class="alert alert-light">
+                    <h3>{{ el.channel_name }}</h3>
+                    <p>{{ el.channel_url }}</p>
+                    <p>{{ el.channel_desc }}</p>
+                    <a href="{% url 'news-up' el.id %}" class="btn btn-primary">Редактировать</a>
+                    <a href="{% url 'news-delete' el.id %}" class="btn btn-danger">Удалить</a>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>У вас нет записей!</p>
+        {% endif %}
+    <h2>Предложи канал</h2>
+      <form method="post">
+        {% csrf_token %}<br>
+        {{ form.channel_url }}<br>
+        {{ form.channel_name }}<br>
+        {{ form.channel_desc }}<br>
+        <span>{{ error }}</span>
+        <button type="submit" class="btn btn-success">добавить канал</button>
+      </form>
+        <br>
+    </div>
+{% endblock %}

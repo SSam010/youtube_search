@@ -1,0 +1,16 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Редактирование{% endblock %}
+
+{% block content %}
+<div class="features">
+<form method="post">
+        {% csrf_token %}<br>
+        {{ form.channel_url }}<br>
+        {{ form.channel_name }}<br>
+        {{ form.channel_desc }}<br>
+        <span>{{ error }}</span>
+        <button type="submit" class="btn btn-success">Редактировать канал</button>
+      </form>
+</div>
+{% endblock %}

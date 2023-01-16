@@ -1,0 +1,1381 @@
+[
+    {
+        "channel_id": 0,
+        "com": 753,
+        "us": 671,
+        "video_id": 0,
+        "views": 1911870
+    },
+    {
+        "channel_id": 0,
+        "com": 2672,
+        "us": 2277,
+        "video_id": 1,
+        "views": 3759771
+    },
+    {
+        "channel_id": 0,
+        "com": 3605,
+        "us": 2966,
+        "video_id": 2,
+        "views": 3338489
+    },
+    {
+        "channel_id": 0,
+        "com": 4397,
+        "us": 3481,
+        "video_id": 3,
+        "views": 5769540
+    },
+    {
+        "channel_id": 0,
+        "com": 1017,
+        "us": 845,
+        "video_id": 4,
+        "views": 1604928
+    },
+    {
+        "channel_id": 0,
+        "com": 105355,
+        "us": 80239,
+        "video_id": 5,
+        "views": 13289180
+    },
+    {
+        "channel_id": 0,
+        "com": 3152,
+        "us": 2706,
+        "video_id": 6,
+        "views": 4937681
+    },
+    {
+        "channel_id": 0,
+        "com": 325,
+        "us": 273,
+        "video_id": 7,
+        "views": 486771
+    },
+    {
+        "channel_id": 0,
+        "com": 11049,
+        "us": 8543,
+        "video_id": 8,
+        "views": 10572136
+    },
+    {
+        "channel_id": 0,
+        "com": 5493,
+        "us": 4521,
+        "video_id": 9,
+        "views": 8173915
+    },
+    {
+        "channel_id": 0,
+        "com": 24558,
+        "us": 20620,
+        "video_id": 10,
+        "views": 15033325
+    },
+    {
+        "channel_id": 0,
+        "com": 73503,
+        "us": 50637,
+        "video_id": 11,
+        "views": 30762397
+    },
+    {
+        "channel_id": 0,
+        "com": 1490,
+        "us": 1318,
+        "video_id": 12,
+        "views": 786851
+    },
+    {
+        "channel_id": 0,
+        "com": 881,
+        "us": 759,
+        "video_id": 13,
+        "views": 1016255
+    },
+    {
+        "channel_id": 0,
+        "com": 26703,
+        "us": 8315,
+        "video_id": 14,
+        "views": 1990240
+    },
+    {
+        "channel_id": 0,
+        "com": 36757,
+        "us": 27415,
+        "video_id": 15,
+        "views": 19230799
+    },
+    {
+        "channel_id": 0,
+        "com": 5346,
+        "us": 4490,
+        "video_id": 16,
+        "views": 3204808
+    },
+    {
+        "channel_id": 0,
+        "com": 313,
+        "us": 289,
+        "video_id": 17,
+        "views": 533301
+    },
+    {
+        "channel_id": 0,
+        "com": 420,
+        "us": 346,
+        "video_id": 18,
+        "views": 465204
+    },
+    {
+        "channel_id": 0,
+        "com": 1116,
+        "us": 916,
+        "video_id": 19,
+        "views": 645596
+    },
+    {
+        "channel_id": 0,
+        "com": 4715,
+        "us": 4003,
+        "video_id": 20,
+        "views": 4198340
+    },
+    {
+        "channel_id": 0,
+        "com": 345,
+        "us": 320,
+        "video_id": 21,
+        "views": 209524
+    },
+    {
+        "channel_id": 0,
+        "com": 7572,
+        "us": 6256,
+        "video_id": 22,
+        "views": 2464700
+    },
+    {
+        "channel_id": 0,
+        "com": 812,
+        "us": 690,
+        "video_id": 23,
+        "views": 1728694
+    },
+    {
+        "channel_id": 0,
+        "com": 2392,
+        "us": 2093,
+        "video_id": 24,
+        "views": 3259280
+    },
+    {
+        "channel_id": 0,
+        "com": 14780,
+        "us": 11400,
+        "video_id": 25,
+        "views": 5227571
+    },
+    {
+        "channel_id": 0,
+        "com": 42963,
+        "us": 34269,
+        "video_id": 26,
+        "views": 13431827
+    },
+    {
+        "channel_id": 0,
+        "com": 92037,
+        "us": 68421,
+        "video_id": 27,
+        "views": 22399032
+    },
+    {
+        "channel_id": 0,
+        "com": 4224,
+        "us": 3543,
+        "video_id": 28,
+        "views": 4989328
+    },
+    {
+        "channel_id": 0,
+        "com": 23231,
+        "us": 17778,
+        "video_id": 29,
+        "views": 13480339
+    },
+    {
+        "channel_id": 0,
+        "com": 14648,
+        "us": 10975,
+        "video_id": 30,
+        "views": 12120264
+    },
+    {
+        "channel_id": 0,
+        "com": 3397,
+        "us": 2899,
+        "video_id": 31,
+        "views": 4641837
+    },
+    {
+        "channel_id": 0,
+        "com": 4806,
+        "us": 3941,
+        "video_id": 32,
+        "views": 3110989
+    },
+    {
+        "channel_id": 0,
+        "com": 4339,
+        "us": 3602,
+        "video_id": 33,
+        "views": 3828079
+    },
+    {
+        "channel_id": 0,
+        "com": 7837,
+        "us": 6492,
+        "video_id": 34,
+        "views": 7621560
+    },
+    {
+        "channel_id": 0,
+        "com": 99,
+        "us": 89,
+        "video_id": 35,
+        "views": 290444
+    },
+    {
+        "channel_id": 0,
+        "com": 5599,
+        "us": 4199,
+        "video_id": 36,
+        "views": 6178059
+    },
+    {
+        "channel_id": 0,
+        "com": 376,
+        "us": 309,
+        "video_id": 37,
+        "views": 229192
+    },
+    {
+        "channel_id": 0,
+        "com": 2439,
+        "us": 2065,
+        "video_id": 38,
+        "views": 3110393
+    },
+    {
+        "channel_id": 0,
+        "com": 4615,
+        "us": 3710,
+        "video_id": 39,
+        "views": 4265185
+    },
+    {
+        "channel_id": 0,
+        "com": 4836,
+        "us": 4250,
+        "video_id": 40,
+        "views": 3047846
+    },
+    {
+        "channel_id": 0,
+        "com": 2268,
+        "us": 1942,
+        "video_id": 41,
+        "views": 1356619
+    },
+    {
+        "channel_id": 0,
+        "com": 2766,
+        "us": 2352,
+        "video_id": 42,
+        "views": 3821045
+    },
+    {
+        "channel_id": 0,
+        "com": 58991,
+        "us": 45772,
+        "video_id": 43,
+        "views": 22612415
+    },
+    {
+        "channel_id": 0,
+        "com": 16273,
+        "us": 13707,
+        "video_id": 44,
+        "views": 6594963
+    },
+    {
+        "channel_id": 0,
+        "com": 5907,
+        "us": 3862,
+        "video_id": 45,
+        "views": 2959345
+    },
+    {
+        "channel_id": 0,
+        "com": 94121,
+        "us": 61657,
+        "video_id": 46,
+        "views": 35696081
+    },
+    {
+        "channel_id": 0,
+        "com": 60504,
+        "us": 38253,
+        "video_id": 47,
+        "views": 7539144
+    },
+    {
+        "channel_id": 0,
+        "com": 4648,
+        "us": 3911,
+        "video_id": 48,
+        "views": 7312933
+    },
+    {
+        "channel_id": 0,
+        "com": 48283,
+        "us": 33497,
+        "video_id": 49,
+        "views": 15702323
+    },
+    {
+        "channel_id": 0,
+        "com": 32092,
+        "us": 26214,
+        "video_id": 50,
+        "views": 8024573
+    },
+    {
+        "channel_id": 0,
+        "com": 50462,
+        "us": 39672,
+        "video_id": 51,
+        "views": 13810339
+    },
+    {
+        "channel_id": 0,
+        "com": 328,
+        "us": 296,
+        "video_id": 52,
+        "views": 215588
+    },
+    {
+        "channel_id": 0,
+        "com": 7200,
+        "us": 5972,
+        "video_id": 53,
+        "views": 3696606
+    },
+    {
+        "channel_id": 0,
+        "com": 2325,
+        "us": 1911,
+        "video_id": 54,
+        "views": 2004906
+    },
+    {
+        "channel_id": 0,
+        "com": 8804,
+        "us": 7070,
+        "video_id": 55,
+        "views": 8426207
+    },
+    {
+        "channel_id": 0,
+        "com": 46356,
+        "us": 36337,
+        "video_id": 56,
+        "views": 24566913
+    },
+    {
+        "channel_id": 0,
+        "com": 1671,
+        "us": 1540,
+        "video_id": 57,
+        "views": 972169
+    },
+    {
+        "channel_id": 0,
+        "com": 418,
+        "us": 347,
+        "video_id": 58,
+        "views": 1040944
+    },
+    {
+        "channel_id": 0,
+        "com": 23029,
+        "us": 19167,
+        "video_id": 59,
+        "views": 12257780
+    },
+    {
+        "channel_id": 0,
+        "com": 19787,
+        "us": 13310,
+        "video_id": 60,
+        "views": 16673235
+    },
+    {
+        "channel_id": 0,
+        "com": 9447,
+        "us": 7530,
+        "video_id": 61,
+        "views": 12033614
+    },
+    {
+        "channel_id": 0,
+        "com": 2973,
+        "us": 2618,
+        "video_id": 62,
+        "views": 1213323
+    },
+    {
+        "channel_id": 0,
+        "com": 26692,
+        "us": 20719,
+        "video_id": 63,
+        "views": 17884404
+    },
+    {
+        "channel_id": 0,
+        "com": 21597,
+        "us": 17282,
+        "video_id": 64,
+        "views": 16834637
+    },
+    {
+        "channel_id": 0,
+        "com": 20530,
+        "us": 15720,
+        "video_id": 65,
+        "views": 6316041
+    },
+    {
+        "channel_id": 0,
+        "com": 175,
+        "us": 152,
+        "video_id": 66,
+        "views": 256850
+    },
+    {
+        "channel_id": 0,
+        "com": 8158,
+        "us": 6998,
+        "video_id": 67,
+        "views": 4599769
+    },
+    {
+        "channel_id": 0,
+        "com": 61703,
+        "us": 43216,
+        "video_id": 68,
+        "views": 13938463
+    },
+    {
+        "channel_id": 0,
+        "com": 1248,
+        "us": 1085,
+        "video_id": 69,
+        "views": 973969
+    },
+    {
+        "channel_id": 0,
+        "com": 467,
+        "us": 406,
+        "video_id": 70,
+        "views": 3364080
+    },
+    {
+        "channel_id": 0,
+        "com": 18047,
+        "us": 15175,
+        "video_id": 71,
+        "views": 9790910
+    },
+    {
+        "channel_id": 0,
+        "com": 576,
+        "us": 517,
+        "video_id": 72,
+        "views": 676169
+    },
+    {
+        "channel_id": 0,
+        "com": 6669,
+        "us": 5307,
+        "video_id": 73,
+        "views": 6779071
+    },
+    {
+        "channel_id": 0,
+        "com": 6612,
+        "us": 5397,
+        "video_id": 74,
+        "views": 8691562
+    },
+    {
+        "channel_id": 0,
+        "com": 40999,
+        "us": 31890,
+        "video_id": 75,
+        "views": 22368587
+    },
+    {
+        "channel_id": 0,
+        "com": 2758,
+        "us": 2398,
+        "video_id": 76,
+        "views": 3325591
+    },
+    {
+        "channel_id": 0,
+        "com": 10397,
+        "us": 8629,
+        "video_id": 77,
+        "views": 8262198
+    },
+    {
+        "channel_id": 0,
+        "com": 18342,
+        "us": 15022,
+        "video_id": 78,
+        "views": 10443094
+    },
+    {
+        "channel_id": 0,
+        "com": 10853,
+        "us": 8112,
+        "video_id": 79,
+        "views": 5986160
+    },
+    {
+        "channel_id": 0,
+        "com": 2557,
+        "us": 2229,
+        "video_id": 80,
+        "views": 3048167
+    },
+    {
+        "channel_id": 0,
+        "com": 7022,
+        "us": 5376,
+        "video_id": 81,
+        "views": 6820812
+    },
+    {
+        "channel_id": 0,
+        "com": 115,
+        "us": 103,
+        "video_id": 82,
+        "views": 213224
+    },
+    {
+        "channel_id": 0,
+        "com": 50796,
+        "us": 37246,
+        "video_id": 83,
+        "views": 23738946
+    },
+    {
+        "channel_id": 0,
+        "com": 45263,
+        "us": 39348,
+        "video_id": 84,
+        "views": 6370426
+    },
+    {
+        "channel_id": 0,
+        "com": 368,
+        "us": 335,
+        "video_id": 85,
+        "views": 988947
+    },
+    {
+        "channel_id": 0,
+        "com": 18780,
+        "us": 14312,
+        "video_id": 86,
+        "views": 16184852
+    },
+    {
+        "channel_id": 0,
+        "com": 2316,
+        "us": 1934,
+        "video_id": 87,
+        "views": 3022441
+    },
+    {
+        "channel_id": 0,
+        "com": 5546,
+        "us": 4623,
+        "video_id": 88,
+        "views": 7103918
+    },
+    {
+        "channel_id": 0,
+        "com": 2975,
+        "us": 2640,
+        "video_id": 89,
+        "views": 2330818
+    },
+    {
+        "channel_id": 0,
+        "com": 127,
+        "us": 117,
+        "video_id": 90,
+        "views": 295641
+    },
+    {
+        "channel_id": 0,
+        "com": 45316,
+        "us": 32840,
+        "video_id": 91,
+        "views": 16571719
+    },
+    {
+        "channel_id": 0,
+        "com": 5769,
+        "us": 4823,
+        "video_id": 92,
+        "views": 6410161
+    },
+    {
+        "channel_id": 0,
+        "com": 99,
+        "us": 89,
+        "video_id": 93,
+        "views": 192811
+    },
+    {
+        "channel_id": 0,
+        "com": 5164,
+        "us": 4103,
+        "video_id": 94,
+        "views": 4933447
+    },
+    {
+        "channel_id": 0,
+        "com": 30494,
+        "us": 25441,
+        "video_id": 95,
+        "views": 15153445
+    },
+    {
+        "channel_id": 0,
+        "com": 6931,
+        "us": 5777,
+        "video_id": 96,
+        "views": 10076249
+    },
+    {
+        "channel_id": 0,
+        "com": 8255,
+        "us": 6883,
+        "video_id": 97,
+        "views": 8250737
+    },
+    {
+        "channel_id": 0,
+        "com": 1203,
+        "us": 924,
+        "video_id": 98,
+        "views": 2233820
+    },
+    {
+        "channel_id": 0,
+        "com": 931,
+        "us": 803,
+        "video_id": 99,
+        "views": 2308315
+    },
+    {
+        "channel_id": 0,
+        "com": 12646,
+        "us": 10097,
+        "video_id": 100,
+        "views": 10063468
+    },
+    {
+        "channel_id": 0,
+        "com": 23227,
+        "us": 18973,
+        "video_id": 101,
+        "views": 8068600
+    },
+    {
+        "channel_id": 0,
+        "com": 24766,
+        "us": 20066,
+        "video_id": 102,
+        "views": 8079043
+    },
+    {
+        "channel_id": 0,
+        "com": 3420,
+        "us": 3052,
+        "video_id": 103,
+        "views": 1668744
+    },
+    {
+        "channel_id": 0,
+        "com": 1569,
+        "us": 1343,
+        "video_id": 104,
+        "views": 2068332
+    },
+    {
+        "channel_id": 0,
+        "com": 1172,
+        "us": 1002,
+        "video_id": 105,
+        "views": 748005
+    },
+    {
+        "channel_id": 0,
+        "com": 10182,
+        "us": 7918,
+        "video_id": 106,
+        "views": 6241989
+    },
+    {
+        "channel_id": 0,
+        "com": 10590,
+        "us": 8415,
+        "video_id": 107,
+        "views": 7115639
+    },
+    {
+        "channel_id": 0,
+        "com": 7481,
+        "us": 6087,
+        "video_id": 108,
+        "views": 5259287
+    },
+    {
+        "channel_id": 0,
+        "com": 81890,
+        "us": 63456,
+        "video_id": 109,
+        "views": 23155654
+    },
+    {
+        "channel_id": 0,
+        "com": 3535,
+        "us": 2967,
+        "video_id": 110,
+        "views": 4405939
+    },
+    {
+        "channel_id": 0,
+        "com": 10696,
+        "us": 8554,
+        "video_id": 111,
+        "views": 5931644
+    },
+    {
+        "channel_id": 0,
+        "com": 3684,
+        "us": 3029,
+        "video_id": 112,
+        "views": 3310165
+    },
+    {
+        "channel_id": 0,
+        "com": 3572,
+        "us": 3196,
+        "video_id": 113,
+        "views": 1557858
+    },
+    {
+        "channel_id": 0,
+        "com": 516,
+        "us": 447,
+        "video_id": 114,
+        "views": 414550
+    },
+    {
+        "channel_id": 0,
+        "com": 387,
+        "us": 326,
+        "video_id": 115,
+        "views": 179929
+    },
+    {
+        "channel_id": 0,
+        "com": 12303,
+        "us": 10644,
+        "video_id": 116,
+        "views": 8791990
+    },
+    {
+        "channel_id": 0,
+        "com": 10550,
+        "us": 7232,
+        "video_id": 117,
+        "views": 6532903
+    },
+    {
+        "channel_id": 0,
+        "com": 7694,
+        "us": 6586,
+        "video_id": 118,
+        "views": 6796094
+    },
+    {
+        "channel_id": 0,
+        "com": 32157,
+        "us": 22466,
+        "video_id": 119,
+        "views": 9993688
+    },
+    {
+        "channel_id": 0,
+        "com": 90771,
+        "us": 61066,
+        "video_id": 120,
+        "views": 22279142
+    },
+    {
+        "channel_id": 0,
+        "com": 42536,
+        "us": 34514,
+        "video_id": 121,
+        "views": 20260879
+    },
+    {
+        "channel_id": 0,
+        "com": 8134,
+        "us": 6950,
+        "video_id": 122,
+        "views": 8173109
+    },
+    {
+        "channel_id": 0,
+        "com": 31101,
+        "us": 25421,
+        "video_id": 123,
+        "views": 11541703
+    },
+    {
+        "channel_id": 0,
+        "com": 139110,
+        "us": 51350,
+        "video_id": 124,
+        "views": 13291343
+    },
+    {
+        "channel_id": 0,
+        "com": 5574,
+        "us": 5079,
+        "video_id": 125,
+        "views": 2120650
+    },
+    {
+        "channel_id": 0,
+        "com": 1684,
+        "us": 1435,
+        "video_id": 126,
+        "views": 3335981
+    },
+    {
+        "channel_id": 0,
+        "com": 16485,
+        "us": 12372,
+        "video_id": 127,
+        "views": 17920487
+    },
+    {
+        "channel_id": 0,
+        "com": 127,
+        "us": 102,
+        "video_id": 128,
+        "views": 242097
+    },
+    {
+        "channel_id": 0,
+        "com": 3341,
+        "us": 2797,
+        "video_id": 129,
+        "views": 4134239
+    },
+    {
+        "channel_id": 0,
+        "com": 9069,
+        "us": 7530,
+        "video_id": 130,
+        "views": 8540624
+    },
+    {
+        "channel_id": 0,
+        "com": 12229,
+        "us": 9955,
+        "video_id": 131,
+        "views": 11783457
+    },
+    {
+        "channel_id": 0,
+        "com": 6163,
+        "us": 4919,
+        "video_id": 132,
+        "views": 5127881
+    },
+    {
+        "channel_id": 0,
+        "com": 11363,
+        "us": 9077,
+        "video_id": 133,
+        "views": 8596484
+    },
+    {
+        "channel_id": 0,
+        "com": 27086,
+        "us": 22223,
+        "video_id": 134,
+        "views": 20522091
+    },
+    {
+        "channel_id": 0,
+        "com": 9090,
+        "us": 6892,
+        "video_id": 135,
+        "views": 6466450
+    },
+    {
+        "channel_id": 0,
+        "com": 22948,
+        "us": 19515,
+        "video_id": 136,
+        "views": 9854670
+    },
+    {
+        "channel_id": 0,
+        "com": 5903,
+        "us": 4848,
+        "video_id": 137,
+        "views": 6012149
+    },
+    {
+        "channel_id": 0,
+        "com": 7708,
+        "us": 6041,
+        "video_id": 138,
+        "views": 6576525
+    },
+    {
+        "channel_id": 0,
+        "com": 8087,
+        "us": 6153,
+        "video_id": 139,
+        "views": 6606897
+    },
+    {
+        "channel_id": 0,
+        "com": 1656,
+        "us": 1436,
+        "video_id": 140,
+        "views": 951769
+    },
+    {
+        "channel_id": 0,
+        "com": 12105,
+        "us": 8453,
+        "video_id": 141,
+        "views": 4013100
+    },
+    {
+        "channel_id": 0,
+        "com": 8513,
+        "us": 5323,
+        "video_id": 142,
+        "views": 6694469
+    },
+    {
+        "channel_id": 0,
+        "com": 1559,
+        "us": 1360,
+        "video_id": 143,
+        "views": 2787298
+    },
+    {
+        "channel_id": 0,
+        "com": 8789,
+        "us": 6902,
+        "video_id": 144,
+        "views": 10090180
+    },
+    {
+        "channel_id": 0,
+        "com": 250,
+        "us": 198,
+        "video_id": 145,
+        "views": 211448
+    },
+    {
+        "channel_id": 0,
+        "com": 405,
+        "us": 338,
+        "video_id": 146,
+        "views": 531306
+    },
+    {
+        "channel_id": 0,
+        "com": 1789,
+        "us": 1488,
+        "video_id": 147,
+        "views": 1049772
+    },
+    {
+        "channel_id": 0,
+        "com": 127,
+        "us": 117,
+        "video_id": 148,
+        "views": 276748
+    },
+    {
+        "channel_id": 0,
+        "com": 2726,
+        "us": 2281,
+        "video_id": 149,
+        "views": 3338930
+    },
+    {
+        "channel_id": 0,
+        "com": 5236,
+        "us": 4414,
+        "video_id": 150,
+        "views": 4789072
+    },
+    {
+        "channel_id": 0,
+        "com": 499,
+        "us": 398,
+        "video_id": 151,
+        "views": 557155
+    },
+    {
+        "channel_id": 0,
+        "com": 5863,
+        "us": 5058,
+        "video_id": 152,
+        "views": 3876825
+    },
+    {
+        "channel_id": 0,
+        "com": 4435,
+        "us": 3816,
+        "video_id": 153,
+        "views": 5989561
+    },
+    {
+        "channel_id": 0,
+        "com": 5250,
+        "us": 4420,
+        "video_id": 154,
+        "views": 6700319
+    },
+    {
+        "channel_id": 0,
+        "com": 2585,
+        "us": 2168,
+        "video_id": 155,
+        "views": 1735875
+    },
+    {
+        "channel_id": 0,
+        "com": 0,
+        "us": 0,
+        "video_id": 156,
+        "views": 0
+    },
+    {
+        "channel_id": 0,
+        "com": 1770,
+        "us": 1517,
+        "video_id": 157,
+        "views": 2355231
+    },
+    {
+        "channel_id": 0,
+        "com": 4947,
+        "us": 4164,
+        "video_id": 158,
+        "views": 4758451
+    },
+    {
+        "channel_id": 0,
+        "com": 14224,
+        "us": 10702,
+        "video_id": 159,
+        "views": 12099904
+    },
+    {
+        "channel_id": 0,
+        "com": 1270,
+        "us": 1145,
+        "video_id": 160,
+        "views": 375053
+    },
+    {
+        "channel_id": 0,
+        "com": 37188,
+        "us": 29284,
+        "video_id": 161,
+        "views": 9158188
+    },
+    {
+        "channel_id": 0,
+        "com": 3321,
+        "us": 3015,
+        "video_id": 162,
+        "views": 2143839
+    },
+    {
+        "channel_id": 0,
+        "com": 7411,
+        "us": 6308,
+        "video_id": 163,
+        "views": 5487527
+    },
+    {
+        "channel_id": 0,
+        "com": 5588,
+        "us": 4738,
+        "video_id": 164,
+        "views": 7550302
+    },
+    {
+        "channel_id": 0,
+        "com": 7600,
+        "us": 6286,
+        "video_id": 165,
+        "views": 3779489
+    },
+    {
+        "channel_id": 0,
+        "com": 7766,
+        "us": 6005,
+        "video_id": 166,
+        "views": 9763886
+    },
+    {
+        "channel_id": 0,
+        "com": 2354,
+        "us": 2029,
+        "video_id": 167,
+        "views": 2374582
+    },
+    {
+        "channel_id": 0,
+        "com": 11362,
+        "us": 8573,
+        "video_id": 168,
+        "views": 9219798
+    },
+    {
+        "channel_id": 0,
+        "com": 140702,
+        "us": 98195,
+        "video_id": 169,
+        "views": 19308399
+    },
+    {
+        "channel_id": 0,
+        "com": 5167,
+        "us": 3976,
+        "video_id": 170,
+        "views": 5288108
+    },
+    {
+        "channel_id": 0,
+        "com": 9722,
+        "us": 5564,
+        "video_id": 171,
+        "views": 4234892
+    },
+    {
+        "channel_id": 0,
+        "com": 9413,
+        "us": 7112,
+        "video_id": 172,
+        "views": 7345822
+    },
+    {
+        "channel_id": 0,
+        "com": 12991,
+        "us": 10834,
+        "video_id": 173,
+        "views": 12020774
+    },
+    {
+        "channel_id": 0,
+        "com": 40300,
+        "us": 32430,
+        "video_id": 174,
+        "views": 21881122
+    },
+    {
+        "channel_id": 0,
+        "com": 2526,
+        "us": 2248,
+        "video_id": 175,
+        "views": 2467007
+    },
+    {
+        "channel_id": 0,
+        "com": 1734,
+        "us": 1479,
+        "video_id": 176,
+        "views": 2390475
+    },
+    {
+        "channel_id": 0,
+        "com": 284109,
+        "us": 214106,
+        "video_id": 177,
+        "views": 8833698
+    },
+    {
+        "channel_id": 0,
+        "com": 6941,
+        "us": 5963,
+        "video_id": 178,
+        "views": 7025316
+    },
+    {
+        "channel_id": 0,
+        "com": 6483,
+        "us": 5419,
+        "video_id": 179,
+        "views": 7054557
+    },
+    {
+        "channel_id": 0,
+        "com": 78637,
+        "us": 53328,
+        "video_id": 180,
+        "views": 17492811
+    },
+    {
+        "channel_id": 0,
+        "com": 9794,
+        "us": 8194,
+        "video_id": 181,
+        "views": 10649583
+    },
+    {
+        "channel_id": 0,
+        "com": 72815,
+        "us": 55651,
+        "video_id": 182,
+        "views": 17372293
+    },
+    {
+        "channel_id": 0,
+        "com": 568,
+        "us": 494,
+        "video_id": 183,
+        "views": 702319
+    },
+    {
+        "channel_id": 0,
+        "com": 53509,
+        "us": 36720,
+        "video_id": 184,
+        "views": 21836666
+    },
+    {
+        "channel_id": 0,
+        "com": 2343,
+        "us": 1946,
+        "video_id": 185,
+        "views": 3371647
+    },
+    {
+        "channel_id": 0,
+        "com": 2410,
+        "us": 2161,
+        "video_id": 186,
+        "views": 2826482
+    },
+    {
+        "channel_id": 0,
+        "com": 28629,
+        "us": 20682,
+        "video_id": 187,
+        "views": 23074659
+    },
+    {
+        "channel_id": 0,
+        "com": 796,
+        "us": 672,
+        "video_id": 188,
+        "views": 3556726
+    },
+    {
+        "channel_id": 0,
+        "com": 5991,
+        "us": 4991,
+        "video_id": 189,
+        "views": 7160025
+    },
+    {
+        "channel_id": 0,
+        "com": 56576,
+        "us": 39486,
+        "video_id": 190,
+        "views": 20784810
+    },
+    {
+        "channel_id": 0,
+        "com": 16613,
+        "us": 14447,
+        "video_id": 191,
+        "views": 9811919
+    },
+    {
+        "channel_id": 0,
+        "com": 1866,
+        "us": 1510,
+        "video_id": 192,
+        "views": 2833123
+    },
+    {
+        "channel_id": 0,
+        "com": 193,
+        "us": 176,
+        "video_id": 193,
+        "views": 622710
+    },
+    {
+        "channel_id": 0,
+        "com": 30663,
+        "us": 25395,
+        "video_id": 194,
+        "views": 10003215
+    },
+    {
+        "channel_id": 0,
+        "com": 7820,
+        "us": 6307,
+        "video_id": 195,
+        "views": 6517155
+    },
+    {
+        "channel_id": 0,
+        "com": 10132,
+        "us": 8338,
+        "video_id": 196,
+        "views": 7484913
+    }
+]

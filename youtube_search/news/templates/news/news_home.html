@@ -1,0 +1,20 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Новости на сайте{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Исследуемые youtube каналы</h1>
+      <div id="venna" >{% include 'news/plot_venna.html' %}</div> <br>
+    {% if channel %}
+            {% for el in channel %}
+                <div class="alert alert-light">
+                    <h3>{{ el.channel_name }}</h3>
+                    <a href="{% url 'news_detail' el.id %}" class="btn btn-outline-primary">Читать подробнее</a>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>У вас нет записей!</p>
+        {% endif %}
+    </div>
+{% endblock %}

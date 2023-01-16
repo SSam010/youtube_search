@@ -1,0 +1,26 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}{{ Channel.channel_name }}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ Channel.channel_name }}</h1>
+        <p>{{ Channel.channel_url }}</p>
+        <p>{{ Channel.channel_desc }}</p>
+
+        {% if Channel.id == 0 %}
+            <img class="wordcloud" src="{% static 'main/img/wordcloud_0.png' %}" alt="wordcloud0">
+            <div>{% include 'news/BadComedian.html' %}</div>
+            <div>{% include 'news/timeline_BadComedian.html' %}</div>
+        {% elif Channel.id == 1 %}
+            <img class="wordcloud" src="{% static 'main/img/wordcloud_1.png' %}" alt="wordcloud1">
+            <div>{% include 'news/VDut.html' %}</div>
+            <div>{% include 'news/timeline_VDut.html' %}</div>
+        {% elif Channel.id == 2%}
+            <img class="wordcloud" src="{% static 'main/img/wordcloud_2.png' %}" alt="wordcloud2">
+            <div>{% include 'news/pozner.html' %}</div>
+            <div>{% include 'news/timeline_pozner.html' %}</div>
+        {% endif %}
+    </div>
+{% endblock %}

@@ -3,17 +3,20 @@ import os
 import sqlite3
 
 import pandas
+from youtubesearchpython import Channel
 
-# create SQL table "channel"
-
+# write addresses: txt file with channel ID, search directory address, BD address."
+id_txt = input('write address of id.txt: ')
 dict_search = input('write address search directory: ')
 connection = sqlite3.connect(input('write address library'))
 
+# create dictionaries for SQL"
 dict_video = {'video_url': [], 'video_title': [], 'load_data': []}
 dict_video_channel = {'channel_id': [], 'video_id': []}
 dict_video_stat = {'video_id': [], 'data_query': [], 'views': []}
 dict_comment = {'video_id': [], 'user_id': [], 'text': [], 'data_pub': []}
 dict_user = {'name': [], 'user_id': []}
+dict_channel = {'channel_url': [], 'channel_name': [], 'channel_desc': []}
 dict_user_id_table_index = {}
 
 # create index for tables
@@ -21,14 +24,29 @@ id_channel = -1
 id_video = -1
 id_user = -1
 
+# recording information about channels
+with open(id_txt, 'r') as f:
+    for channel_id in f:
+        channel_info = Channel.get(channel_id.rstrip())
+        dict_channel['channel_url'] += [channel_info['url']]
+        dict_channel['channel_name'] += [channel_info['title']]
+        dict_channel['channel_desc'] += [channel_info['description']]
+
+# opening channel directories
 for chan_dir in os.listdir(dict_search):
+    # Channel indexing
     id_channel += 1
+
+    # Get video data
     for video_from_channel in os.listdir(dict_search + '/' + chan_dir):
+        # Checking the file type(video data is stored only in files JSON, not in directories
         if '.json' in video_from_channel:
+            # Video indexing
             id_video += 1
             way_dir_chan = dict_search + '/' + chan_dir
             way_chan_video = way_dir_chan + '/' + video_from_channel
 
+            # recording information about channel video
             with open(way_chan_video, 'r') as f:
                 data_video = json.load(f)
 
@@ -53,6 +71,7 @@ for chan_dir in os.listdir(dict_search):
                             # User uniqueness check
                             if comment['channel'] not in dict_user_id_table_index:
 
+                                # recording information about video comment
                                 id_user += 1
                                 dict_user_id_table_index[comment['channel']] = id_user
 
@@ -64,6 +83,7 @@ for chan_dir in os.listdir(dict_search):
                             else:
                                 dict_comment['user_id'] += [dict_user_id_table_index[comment['channel']]]
 
+                            # recording information about video comment
                             dict_comment['text'] += [comment['text']]
                             dict_comment['data_pub'] += [comment['time']]
                             dict_comment['video_id'] += [id_video]
@@ -86,5 +106,9 @@ table_user.to_sql('user', connection, if_exists='append', index_label='id')
 
 table_comments = pandas.DataFrame.from_dict(dict_comment)
 table_comments.to_sql('comment', connection, if_exists='append', index_label='id')
+
+table_channel = pandas.DataFrame.from_dict(dict_channel)
+connection = sqlite3.connect('base_youtube.db')
+table_channel.to_sql('channel', connection, if_exists='append', index_label='id')
 
 print('data added to the library')

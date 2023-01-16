@@ -1,0 +1,14 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Удаление канала{% endblock %}
+
+{% block content %}
+    <div class="features">
+    <h1>Удалить канал {{ channeladd.channel_name }}</h1>
+      <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-success">Удалить канал</button>
+      </form>
+
+    </div>
+{% endblock %}
