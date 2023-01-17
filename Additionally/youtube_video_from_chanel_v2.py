@@ -1,9 +1,7 @@
 import json
 import os
-import re
 from datetime import datetime
 
-import requests as req
 from youtubesearchpython import *
 
 
