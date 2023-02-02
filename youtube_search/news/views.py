@@ -51,9 +51,9 @@ def create(request):
             form.user = request.user
             form.slug = slugify(form.channel_name)
             form.save()
+            return redirect('create')
         else:
             error = "Форма заполнена некорректно"
-        return
 
     form = ChannelAddForm()
     channel_add = ChannelAdd.objects.order_by('time_create').select_related('user')
