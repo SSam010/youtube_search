@@ -1,0 +1,19 @@
+This resource implements the ability to use work with a table of proposals.
+Reading and adding new entries is implemented at http://127.0.0.1:8000/news/api/v1/newslist/
+To gain access, you need to get a token:
+1) Register a user http://127.0.0.1:8000/news/api/v1/auth/users/ - send a POST request ith the following fields: username, password, email.
+In case of successful registration, the response will be received in the form of a JSON file, which will contain the fields email, id, username.
+
+2) Get a token - send a POST request with username and password fields to: http://127.0.0.1:8000/news/auth/token/login/ . 
+If successful, the response will be received in the form of a JSON file, in which the "auth_token" field will be indicated.
+
+3) Now, you can refer to viewing and adding new entries at http://127.0.0.1:8000/news/api/v1/newslist/.
+ The received token must be transferred to the "Headers" by the "Authorization" key in the GET or POST request. Send value in the format Token <received token> ".
+
+With a GET request, the response will contain a collection of records in JSON format with the following fields: channel_url, channel_name, channel_desc, time_create, time_update, slug.
+To add new records, it is necessary to form a POST request with the following fields: channel_name, channel_url, channel_desс.
+
+To edit or delete your entry, you must use the appropriate addresses:
+http://127.0.0.1:8000/news/api/v1/newslist/<slug:slug>/
+http://127.0.0.1:8000/news/api/v1/newslist/delete/<slug:slug>/
+Please note: to be able to edit or delete the token is NOT REQUIRED. It is enough to be authorized by login and password. Otherwise, only the entry will be readable.

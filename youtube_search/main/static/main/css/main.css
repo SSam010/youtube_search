@@ -100,3 +100,57 @@ ul#cont a{text-decoration: none;}
 img.wordcloud{
 width: 70%;
 }
+
+.alert-danger {
+    font-size: 15px;
+    height: auto;
+}
+
+.was-validated{
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.login-logout{
+    display:inline-block;
+    float: right;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.form-add{
+    font-size: 20px;
+}
+
+#channel_name{
+text-align: left;
+margin-left: 10%;
+margin-top: 5%;
+}
+
+#channel_url{
+float: left;
+margin-left: 10%;
+}
+
+#channel_desc{
+text-align: left;
+margin-left: 10%;
+}
+
+#channel_img{
+float: right;
+margin-right: 10%;
+margin-top: 5%;
+width: 200px;
+}
+
+#publish-data{
+}
+
+img.captcha{
+margin-left: -25%;
+width: 90px;
+}

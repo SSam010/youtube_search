@@ -3,12 +3,15 @@
 {% block title %}Удаление канала{% endblock %}
 
 {% block content %}
+{% if form.user.value == request.user.id or request.user.is_staff %}
     <div class="features">
     <h1>Удалить канал {{ channeladd.channel_name }}</h1>
       <form method="post">
         {% csrf_token %}
         <button type="submit" class="btn btn-success">Удалить канал</button>
       </form>
-
     </div>
+{%else %}
+    <h3 style="color: white;">НЕТ ДОСТУПА</h3>
+{% endif %}
 {% endblock %}

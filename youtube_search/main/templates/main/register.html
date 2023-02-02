@@ -1,0 +1,25 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+Регистрация
+{% endblock %}
+
+{% block content %}
+<form class="was-validated" method="post">
+    {% csrf_token %}
+    {% if form.non_field_error %}
+    <div class="alert alert-danger" role="alert">{{ form.non_field_error }}</div>
+    {% endif %}
+    {% for r in form %}
+    <div class="mb-3">
+    <label class="form-control" for="r.id_for_label" >{{ r.label }}:</label>
+    <span class="form-control" >{{ r }}</span>
+        {% if r.errors %}
+    <div class="alert alert-danger" >{{ r.errors }}</div>
+        {% endif %}
+    {% endfor %}
+        </div>
+    <button class="btn btn-primary" type="submit">Зарегистрировать</button>
+</form>
+{% endblock %}
+

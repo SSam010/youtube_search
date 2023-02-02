@@ -3,14 +3,17 @@
 {% block title %}Редактирование{% endblock %}
 
 {% block content %}
-<div class="features">
-<form method="post">
-        {% csrf_token %}<br>
-        {{ form.channel_url }}<br>
-        {{ form.channel_name }}<br>
-        {{ form.channel_desc }}<br>
-        <span>{{ error }}</span>
-        <button type="submit" class="btn btn-success">Редактировать канал</button>
-      </form>
-</div>
+{% if form.user.value == request.user.id or request.user.is_staff %}
+    <div class="features">
+        <form class="form-add" method="post" enctype="multipart/form-data">
+            {% csrf_token %}<br>
+             {{ form.as_p }}<br>
+            <p>{{ form.user }}</p>
+            <span>{{ error }}</span>
+            <button type="submit" class="btn btn-success">Редактировать канал</button>
+        </form>
+    </div>
+{%else %}
+    <h3 style="color: white;">НЕТ ДОСТУПА</h3>
+{% endif %}
 {% endblock %}

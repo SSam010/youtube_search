@@ -19,7 +19,15 @@
             <a href="{% url 'news_home' %}"><li><i class="bi bi-youtube"></i> Каналы</li></a>
             <a href="{% url 'create' %}"><li><i class="bi bi-person-plus-fill"></i> Предложи канал</li></a>
             <a href="{% url 'contacts' %}"><li><i class="bi bi-telephone-plus-fill"></i> Контакты</li></a>
-        </ul>
+                </ul>
+            <div class ='login-logout'>
+                {% if request.user.is_authenticated %}
+                   <h5>Вы вошли как {{ request.user }}</h5>
+                    <a href="{% url 'logout1' %}">Выйти из аккаунта</a>
+                {%else%}
+                    <a href="{% url 'register' %}">Регистрация</a> | <a href="{% url 'login1' %}">Вход</a>
+                {% endif %}
+            </div>
     </aside>
     <main>
   {% block content %}
