@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf7a04e7-31b4-4156-beb2-0cf3eee47de7" name="Changes" comment="Отредактирована страница предложений каналов;&#10;Дабавлена регистрация на сайте и настроены права доступа для страницы предложений;&#10;Добавлен API для предложений(с реализацией доступа через сессии и токены);&#10;Добавлено кеширование для страницы изучаемых каналов;&#10;Кастомизирована админ панель для таблицы с предложениями;" />
+    <list default="true" id="cf7a04e7-31b4-4156-beb2-0cf3eee47de7" name="Changes" comment="тест3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,16 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Projects/pythonDjango",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/pythonDjango&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\pythonDjango\youtube_search" />
@@ -217,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675338796847</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="тест3">
+      <created>1675345397743</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675345397743</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +261,7 @@
     <MESSAGE value="Добавлен сайт на Django с облегченной БД, парсеры и скрипт загрузки полученной инфо в файл БД." />
     <MESSAGE value="Добавлена схема работы парсеров, ERD-схема полной БД, перечень необходимых библиотек для корректной работы проекта." />
     <MESSAGE value="Отредактирована страница предложений каналов;&#10;Дабавлена регистрация на сайте и настроены права доступа для страницы предложений;&#10;Добавлен API для предложений(с реализацией доступа через сессии и токены);&#10;Добавлено кеширование для страницы изучаемых каналов;&#10;Кастомизирована админ панель для таблицы с предложениями;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Отредактирована страница предложений каналов;&#10;Дабавлена регистрация на сайте и настроены права доступа для страницы предложений;&#10;Добавлен API для предложений(с реализацией доступа через сессии и токены);&#10;Добавлено кеширование для страницы изучаемых каналов;&#10;Кастомизирована админ панель для таблицы с предложениями;" />
+    <MESSAGE value="тест3" />
+    <option name="LAST_COMMIT_MESSAGE" value="тест3" />
   </component>
 </project>

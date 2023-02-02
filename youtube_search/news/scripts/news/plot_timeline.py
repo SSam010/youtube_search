@@ -2,8 +2,11 @@ import datetime
 
 import plotly.graph_objs as go
 from plotly.io import to_html
+from pathlib import Path
 
 from ...models import VidDate0, VidDate1, VidDate2
+
+DIR = Path(__file__).resolve().parent.parent.parent
 
 
 def create_timeline():
@@ -24,7 +27,7 @@ def create_timeline():
         """
 import json
 import os        
-    for file_chen in os.listdir('D:/Projects/pythonDjango/youtube_search/news/scripts/news/timeline'):
+    for file_chen in os.listdir(f'{DIR}/scripts/news/timeline'):
         if file_chen == 'vid_date0.json':
             name_channel = 'BadComedian'
             name_channel_eng = 'BadComedian'
@@ -35,7 +38,7 @@ import os
             name_channel = 'ещёнепознер'
             name_channel_eng = 'pozner'
 
-        with open(f'D:/Projects/pythonDjango/youtube_search/news/scripts/news/timeline/{file_chen}', 'r') as e:
+        with open(f'{DIR}/scripts/news/timeline/{file_chen}', 'r') as e:
             date_pub = []
             data = json.load(e)
             for u in data:
@@ -122,14 +125,13 @@ import os
             pad={"b": 10, "t": 50},
             steps=steps,
         )]
-        fig.update_layout(showlegend=False, title=f'{name_channel}', xaxis_title="Дата, шаг", yaxis_title="Число загрузок, шт")
+        fig.update_layout(showlegend=False, title=f'{name_channel}', xaxis_title="Дата, шаг",
+                          yaxis_title="Число загрузок, шт")
         fig.layout.sliders = sliders
-
 
         # Create plot html
         html_str = to_html(fig)
-        with open(f'D:/Projects/pythonDjango/youtube_search/news/templates/news/timeline_{name_channel_eng}.html',
-                  'w') as ht:
+        with open(f'{DIR}/templates/news/timeline_{name_channel_eng}.html', 'w') as ht:
             ht.write(html_str)
 
 

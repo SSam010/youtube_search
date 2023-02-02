@@ -1,7 +1,10 @@
+from pathlib import Path
+
 import mpld3
 from matplotlib import pyplot as plt
 from matplotlib_venn import venn3_unweighted
 
+DIR = Path(__file__).resolve().parent.parent.parent
 # Working with a database. Available in the extended version of the database.
 """
 from ...models import VideoChannelContent, Comment
@@ -75,5 +78,5 @@ html_str = mpld3.fig_to_html(fig)
 
 
 def create_venna():
-    with open('D:/Projects/pythonDjango/youtube_search/news/templates/news/plot_venna.html', 'w') as ht:
+    with open(f'{DIR}/templates/news/plot_venna.html', 'w') as ht:
         ht.write(html_str)
