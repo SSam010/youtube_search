@@ -14,10 +14,13 @@ SETTINGS = {
     'db_address': 'db.sqlite3'
 }
 
+# Getting video data
 yvc.start_parsing_video(list_channel_id=SETTINGS['file_txt_address'],
                         dir_search=SETTINGS['search_directory'], time_now=time_now)
 
+# Getting comments from a video
 cbv.start_parsing_comments(search_dir=SETTINGS['search_directory'])
 
+# Sending to SQLLite
 tds.transfer(list_channel_id=SETTINGS['file_txt_address'],
              dir_search=SETTINGS['search_directory'], db_address=SETTINGS['db_address'])

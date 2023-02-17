@@ -7,13 +7,9 @@ from youtubesearchpython import Channel
 
 
 def transfer(list_channel_id, dir_search, db_address):
-    # write addresses: txt file with channel ID, search directory address, BD address."
-
-    # list_channel_id = input('write address of id.txt: ')
-    # dir_search = input('write address search directory: ')
     connection = sqlite3.connect(db_address)
 
-    # create dictionaries for SQL"
+    # Create dictionaries for SQL"
     dict_video = {'video_url': [], 'video_title': [], 'load_data': []}
     dict_video_channel = {'channel_id': [], 'video_id': []}
     dict_video_stat = {'video_id': [], 'data_query': [], 'views': []}
@@ -22,12 +18,12 @@ def transfer(list_channel_id, dir_search, db_address):
     dict_channel = {'channel_url': [], 'channel_name': [], 'channel_desc': []}
     dict_user_id_table_index = {}
 
-    # create index for tables
+    # Create index for tables
     id_channel = -1
     id_video = -1
     id_user = -1
 
-    # recording information about channels
+    # Recording information about channels
     with open(list_channel_id, 'r') as f:
         for channel_id in f:
             channel_info = Channel.get(channel_id.rstrip())
@@ -35,7 +31,7 @@ def transfer(list_channel_id, dir_search, db_address):
             dict_channel['channel_name'] += [channel_info['title']]
             dict_channel['channel_desc'] += [channel_info['description']]
 
-    # opening channel directories
+    # Opening channel directories
     for chan_dir in os.listdir(dir_search):
         # Channel indexing
         id_channel += 1
@@ -49,7 +45,7 @@ def transfer(list_channel_id, dir_search, db_address):
                 way_dir_chan = dir_search + '/' + chan_dir
                 way_chan_video = way_dir_chan + '/' + video_from_channel
 
-                # recording information about channel video
+                # Recording information about channel video
                 with open(way_chan_video, 'r') as f:
                     data_video = json.load(f)
 
@@ -64,7 +60,7 @@ def transfer(list_channel_id, dir_search, db_address):
                     dict_video_stat['data_query'] += [data_video['Time search']]
                     dict_video_stat['views'] += [int(data_video['viewCount']['text'])]
 
-                    # searching comments
+                    # Searching comments
                     try:
                         way_video_comm = way_dir_chan + '/' + data_video['id'] + '/' + 'comments.json'
                         with open(way_video_comm, 'r') as fe:
@@ -93,8 +89,7 @@ def transfer(list_channel_id, dir_search, db_address):
                     except:
                         print(data_video['id'] + " don't have any comments")
 
-    # sending to SQLLite
-
+    # Sending to SQLLite
     table_video = pandas.DataFrame.from_dict(dict_video)
     table_video.to_sql('video', connection, if_exists='append', index_label='id')
 
@@ -114,4 +109,4 @@ def transfer(list_channel_id, dir_search, db_address):
     connection = sqlite3.connect('base_youtube.db')
     table_channel.to_sql('channel', connection, if_exists='append', index_label='id')
 
-    print('data added to the library')
+    print('Data added to the library')
