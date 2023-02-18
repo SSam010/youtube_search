@@ -55,6 +55,10 @@ MIDDLEWARE = [
     "debug_toolbar.middleware.DebugToolbarMiddleware",
 ]
 
+DEBUG_TOOLBAR_CONFIG = {
+    'SHOW_TOOLBAR_CALLBACK': lambda r: False,
+}
+
 ROOT_URLCONF = 'youtube_search.urls'
 
 TEMPLATES = [

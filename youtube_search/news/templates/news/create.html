@@ -17,6 +17,7 @@
                     <br>
                     <p id="publish-data">Пользователь: {{ el.user }}, дата публикации: {{ el.time_update }}</p>
                     {% if el.user == request.user or request.user.is_staff %}
+                    <br>
                         <a href="{% url 'news-up' el.slug %}" class="btn btn-primary">Редактировать</a>
                         <a href="{% url 'news-delete' el.slug %}" class="btn btn-danger">Удалить</a>
                     {% endif %}

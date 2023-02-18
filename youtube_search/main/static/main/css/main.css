@@ -147,10 +147,22 @@ margin-top: 5%;
 width: 200px;
 }
 
-#publish-data{
-}
 
 img.captcha{
 margin-left: -25%;
 width: 90px;
+}
+
+#register{
+  height: 250px;
+  width: 400px;
+}
+
+#register-button{
+margin-top: -150px
+}
+
+#login{
+  height: 250px;
+  width: 400px;
 }
