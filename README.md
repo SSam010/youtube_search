@@ -9,3 +9,9 @@ In the Additionally directory you will find scripts for parsing, loading data in
 The project is still under development, so some functionality will be changed in the future.
 
 The list of required libraries for the site to work correctly can be found in the python_libs.txt
+
+The project supports deployment in DOKER.
+
+To deploy the project on your PC, you need to go to the directory "youtube_search" in the terminal and run the command "docker compose up".
+
+To connect to the web application in the address bar of the browser, go to localhost port 8000 (localhost:8000).
