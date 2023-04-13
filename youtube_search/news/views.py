@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 from django.views.decorators.cache import cache_page
 from django.views.generic import DetailView, UpdateView, DeleteView
@@ -42,6 +43,7 @@ class NewsDeleteView(DeleteView):
     success_url = '/news/create'
 
 
+@login_required(login_url='/login/')
 def create(request):
     error = ''
     if request.method == "POST":
