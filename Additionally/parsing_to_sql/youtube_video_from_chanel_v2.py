@@ -4,12 +4,12 @@ import os
 from youtubesearchpython import *
 
 
-def start_parsing_video(list_channel_id, dir_search, time_now):
+def start_parsing_video(channel_id_file, dir_search, time_now):
     os.mkdir(dir_search)
     # Search by id channel
-    with open(list_channel_id, "r") as lcu:
+    with open(channel_id_file, "r") as lcu:
         for channel_id in lcu:
-            playlist = Playlist(playlist_from_channel_id(channel_id))
+            playlist = Playlist(playlist_from_channel_id(channel_id.rstrip()))
 
             # Creating channel directory
             channel_name = playlist.videos[0]['channel']['name']
@@ -21,7 +21,7 @@ def start_parsing_video(list_channel_id, dir_search, time_now):
 
             # Getting videos from channel and recording into JSON files
             for video_from_channel in playlist.videos:
-                with open(dir_search + '/' + channel_name + '/' + video_from_channel['id'] + '.json', 'w') as vh:
+                with open(os.path.join(dir_search, channel_name, f"{video_from_channel['id']}.json"), 'w') as vh:
                     # Getting information about channel videos
                     video_info = Video.getInfo(video_from_channel['link'], mode=ResultMode.json)
 

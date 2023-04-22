@@ -22,7 +22,7 @@ yvc.start_parsing_video(list_channel_id=SETTINGS['file_txt_address'],
                         )
 
 # Getting comments from a video
-cbv.start_parsing_comments(search_dir=SETTINGS['search_directory'])
+cbv.get_comments_from_directory(search_dir=SETTINGS['search_directory'])
 
 # Sending to SQLLite
 tds.transfer(list_channel_id=SETTINGS['file_txt_address'],

@@ -14,8 +14,6 @@ from .permissions import *
 from .scripts.news import plot_venna, plot_boxplot, plot_timeline
 
 
-# Create your views here.
-
 @cache_page(60 * 30)
 def news_home(request):
     channel = Channel.objects.order_by('channel_name')

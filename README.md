@@ -1,17 +1,22 @@
-# git_youtube_search
+## Project Description
 
-This project is a website written in the Django framework.
+This is a website built using the Django framework that allows users to collect and analyze statistical data from selected youtube channels. The site offers statistical graph construction functionality to the users.
 
-It is dedicated to the collection and analysis of statistical data from selected youtube channels, the construction of statistical graphs.
+## Installation and Usage
 
-In the Additionally directory you will find scripts for parsing, loading data into the database, ERD scheme of their work, as well as instructions for working with the API.
+To deploy the project on your computer, you can follow these steps:
 
-The project is still under development, so some functionality will be changed in the future.
+Clone the repository to your local machine.
+Navigate to the "youtube_search" directory in the terminal.
+Install the required libraries mentioned in the python_libs.txt file.
+To deploy the project using Docker, run the command "docker compose up" in the terminal.
+To connect to the web application, open your browser and go to localhost port 8000 (localhost:8000).
 
-The list of required libraries for the site to work correctly can be found in the python_libs.txt
+## Additionally
 
-The project supports deployment in DOKER.
+The "Additionally" directory contains the following resources:
 
-To deploy the project on your PC, you need to go to the directory "youtube_search" in the terminal and run the command "docker compose up".
-
-To connect to the web application in the address bar of the browser, go to localhost port 8000 (localhost:8000).
+Scripts for parsing and loading data into the database.
+ERD scheme of the project.
+Instructions for working with the API.
+Please note that the project is still under development, and some functionalities may change in the future.
